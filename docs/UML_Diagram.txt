@@ -1,0 +1,19 @@
+classDiagram
+    class Student {
+        -int id
+        -String name
+        -int age
+        -String email
+        -String course
+        +Student(id, name, age, email, course)
+        +getId() int
+        +getName() String
+        +getAge() int
+        +getEmail() String
+        +getCourse() String
+        +setName(name) void
+        +setAge(age) void
+        +setEmail(email) void
+        +setCourse(course) void
+        +toString() String
+    }

@@ -1,0 +1,41 @@
+
+# Compiled Java files
+*.class
+
+# Maven build output
+target/
+
+# Logs
+*.log
+logs/
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration containing credentials
+application-local.properties
+application-local.yml
+config-local.properties
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Test reports
+surefire-reports/
